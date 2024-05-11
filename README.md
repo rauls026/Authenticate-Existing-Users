@@ -1,11 +1,11 @@
 # Authenticate Existing Users
 
 ## Description
-Authenticate Existing Users is a Java program designed to provide user authentication functionality. The program allows users to log in with existing credentials or create new ones if needed. It utilizes a two-dimensional array to store user credentials securely. Passwords are hashed using MD5 encryption to ensure data security.
+Authenticate Existing Users is a Java program designed to provide user authentication functionality. The program allows users to log in with existing credentials or create new ones if needed. It utilizes a two-dimensional array to store user credentials securely. Passwords are hashed using SHA-256 encryption to ensure data security.
 
 ## Features
 - **User authentication:** Validates existing users based on their username and password.
-- **Secure password storage:** Passwords are securely hashed using MD5 encryption before storing them in the user database.
+- **Secure password storage:** Passwords are securely hashed using SHA-256 encryption before storing them in the user database.
 - **User-friendly interface:** Provides clear prompts and messages for user interaction.
 - **Dynamic user management:** Offers the option to create new user accounts on demand.
 
@@ -16,7 +16,7 @@ Authenticate Existing Users is a Java program designed to provide user authentic
 
 ## Technologies Used
 - Java
-- MD5 Encryption
+- SHA-256 Encryption
 
 ## Potential Use Cases
 - Web application authentication
